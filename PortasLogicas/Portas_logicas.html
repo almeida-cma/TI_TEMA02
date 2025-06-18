@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Circuitos Lógicos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Simulador de Circuitos Lógicos</h1>
+
+    <div class="circuit-container">
+        <div class="input" id="input-a-container">
+            <label for="inputA">Entrada A:</label>
+            <select id="inputA">
+                <option value="false">Falso (0)</option>
+                <option value="true">Verdadeiro (1)</option>
+            </select>
+        </div>
+
+        <div class="input" id="input-b-container">
+            <label for="inputB">Entrada B:</label>
+            <select id="inputB">
+                <option value="false">Falso (0)</option>
+                <option value="true">Verdadeiro (1)</option>
+            </select>
+        </div>
+
+        <div class="gate">
+            <label for="operation">Operação Lógica:</label>
+            <select id="operation">
+                <option value="AND">E (AND)</option>
+                <option value="OR">OU (OR)</option>
+                <option value="NOT_A">NÃO A (NOT A)</option>
+                <option value="NOT_B">NÃO B (NOT B)</option>
+                <option value="XOR">OU-EXCLUSIVO (XOR)</option>
+                <option value="NAND">NÃO E (NAND)</option>
+                <option value="NOR">NÃO OU (NOR)</option>
+            </select>
+        </div>
+
+        <div class="output">
+            <label>Resultado:</label>
+            <span id="result"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

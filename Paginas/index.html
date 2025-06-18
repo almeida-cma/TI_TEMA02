@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo Modular Completo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- === HEADER (Menu) === -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">Menu</div>
+            <ul class="nav-links">
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
+                <li><a href="#">Item 4</a></li>
+                <!-- Adicione mais itens aqui -->
+            </ul>
+            <button class="mobile-menu-btn">☰</button>
+            <button class="theme-toggle-btn">🌓</button> <!-- Botão de tema escuro/claro -->
+        </nav>
+    </header>
+
+    <!-- === HERO BANNER === -->
+    <section class="hero-banner">
+    <div class="hero-content">
+        <h1>Bem-vindo ao portal</h1>
+        <p>Breve explicação do portal</p>
+    </div>
+    </section>
+
+
+    <!-- === SEÇÃO DE TEXTO COM DESTAQUE === -->
+    <section class="text-highlight">
+        <h2>Textos com Destaque</h2>
+        <div class="text-container">
+            <p class="highlight">Texto 1 - Lorem ipsum dolor sit amet.</p>
+            <p class="highlight">Texto 2 - Nullam euismod odio vel turpis.</p>
+            <p class="highlight">Texto 3 - Sed do eiusmod tempor incididunt.</p>
+            <p class="highlight">Texto 4 - Ut enim ad minim veniam.</p>
+            <!-- Adicione mais textos aqui -->
+        </div>
+    </section>
+
+    <!-- === CARROSSEL DE IMAGENS === -->
+    <section class="image-carousel">
+        <h2>Carrossel de Imagens</h2>
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="img/carrocel1.jpg" alt="Imagem 1">
+                <img src="img/carrocel2.jpg" alt="Imagem 2">
+                <img src="https://via.placeholder.com/800x400?text=Imagem+3" alt="Imagem 3">
+                <img src="https://via.placeholder.com/800x400?text=Imagem+4" alt="Imagem 4">
+                <!-- Adicione mais imagens aqui -->
+            </div>
+            <button class="carousel-prev">❮</button>
+            <button class="carousel-next">❯</button>
+        </div>
+    </section>
+
+    <!-- === GRID DE IMAGENS COM DESCRIÇÃO === -->
+    <section class="image-grid">
+        <h2>Grid de Imagens</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="https://via.placeholder.com/300x200?text=Imagem+1" alt="Imagem 1">
+                <p>Descrição da Imagem 1</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://via.placeholder.com/300x200?text=Imagem+2" alt="Imagem 2">
+                <p>Descrição da Imagem 2</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://via.placeholder.com/300x200?text=Imagem+3" alt="Imagem 3">
+                <p>Descrição da Imagem 3</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://via.placeholder.com/300x200?text=Imagem+4" alt="Imagem 4">
+                <p>Descrição da Imagem 4</p>
+            </div>
+            <!-- Adicione mais itens aqui -->
+        </div>
+    </section>
+
+    <!-- === DEPOIMENTOS === -->
+    <section class="testimonials">
+        <h2>Depoimentos</h2>
+        <div class="testimonial-container">
+            <div class="testimonial">
+                <p>"Ótimo serviço! Recomendo muito."</p>
+                <span>- Cliente 1</span>
+            </div>
+            <div class="testimonial">
+                <p>"Profissionais qualificados e atenciosos."</p>
+                <span>- Cliente 2</span>
+            </div>
+            <div class="testimonial">
+                <p>"Produto de alta qualidade."</p>
+                <span>- Cliente 3</span>
+            </div>
+            <div class="testimonial">
+                <p>"Entrega rápida e eficiente."</p>
+                <span>- Cliente 4</span>
+            </div>
+            <!-- Adicione mais depoimentos aqui -->
+        </div>
+    </section>
+
+    <!-- === FORMULÁRIO DE CONTATO === -->
+    <section class="contact-form">
+        <h2>Fale Conosco</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensagem:</label>
+                <textarea id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- === FAQ === -->
+    <section class="faq">
+        <h2>Perguntas Frequentes</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <button class="faq-question">Pergunta 1?</button>
+                <div class="faq-answer">
+                    <p>Resposta para a pergunta 1.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Pergunta 2?</button>
+                <div class="faq-answer">
+                    <p>Resposta para a pergunta 2.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Pergunta 3?</button>
+                <div class="faq-answer">
+                    <p>Resposta para a pergunta 3.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Pergunta 4?</button>
+                <div class="faq-answer">
+                    <p>Resposta para a pergunta 4.</p>
+                </div>
+            </div>
+            <!-- Adicione mais perguntas aqui -->
+        </div>
+    </section>
+
+    <!-- === ABOUT US === -->
+    <section class="about-us">
+        <h2>Sobre Nós</h2>
+        <div class="about-container">
+            <div class="about-content">
+                <h3>Nossa História</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="about-content">
+                <h3>Missão</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="about-content">
+                <h3>Visão</h3>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+            <div class="about-content">
+                <h3>Valores</h3>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <!-- Adicione mais conteúdos aqui -->
+        </div>
+    </section>
+
+    <!-- === BLOG === -->
+    <section class="blog">
+        <h2>Últimas Postagens</h2>
+        <div class="blog-container">
+            <article class="blog-post">
+                <img src="https://via.placeholder.com/400x200?text=Post+1" alt="Post 1">
+                <h3>Título do Post 1</h3>
+                <p>Resumo breve do post. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="read-more">Leia mais</a>
+            </article>
+            <article class="blog-post">
+                <img src="https://via.placeholder.com/400x200?text=Post+2" alt="Post 2">
+                <h3>Título do Post 2</h3>
+                <p>Resumo breve do post. Sed do eiusmod tempor incididunt ut labore.</p>
+                <a href="#" class="read-more">Leia mais</a>
+            </article>
+            <article class="blog-post">
+                <img src="https://via.placeholder.com/400x200?text=Post+3" alt="Post 3">
+                <h3>Título do Post 3</h3>
+                <p>Resumo breve do post. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                <a href="#" class="read-more">Leia mais</a>
+            </article>
+            <article class="blog-post">
+                <img src="https://via.placeholder.com/400x200?text=Post+4" alt="Post 4">
+                <h3>Título do Post 4</h3>
+                <p>Resumo breve do post. Duis aute irure dolor in reprehenderit.</p>
+                <a href="#" class="read-more">Leia mais</a>
+            </article>
+            <!-- Adicione mais posts aqui -->
+        </div>
+    </section>
+
+    <!-- === TEAM === -->
+    <section class="team">
+        <h2>Nossa Equipe</h2>
+        <div class="team-container">
+            <div class="team-member">
+                <img src="img/team1.jpg" alt="Membro 1">
+                <h3>João Silva</h3>
+                <p>CEO</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/200x200?text=Membro+2" alt="Membro 2">
+                <h3>Maria Souza</h3>
+                <p>Designer</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/200x200?text=Membro+3" alt="Membro 3">
+                <h3>Carlos Oliveira</h3>
+                <p>Desenvolvedor</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/200x200?text=Membro+4" alt="Membro 4">
+                <h3>Ana Pereira</h3>
+                <p>Marketing</p>
+            </div>
+            <!-- Adicione mais membros aqui -->
+        </div>
+    </section>
+
+    <!-- === VIDEOS === -->
+    <section class="video-gallery">
+        <h2>Galeria de Vídeos</h2>
+        <div class="video-container">
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+                <h3>Título do Vídeo 1</h3>
+            </div>
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+                <h3>Título do Vídeo 2</h3>
+            </div>
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allowfullscreen></iframe>
+                <h3>Título do Vídeo 3</h3>
+            </div>
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_4" frameborder="0" allowfullscreen></iframe>
+                <h3>Título do Vídeo 4</h3>
+            </div>
+            <!-- Adicione mais vídeos aqui -->
+        </div>
+    </section>    
+    
+    <!-- === PRICING === -->
+    <section class="pricing">
+        <h2>Nossos Planos</h2>
+        <div class="pricing-container">
+            <div class="pricing-card">
+                <h3>Básico</h3>
+                <p class="price">R$ 29,90<span>/mês</span></p>
+                <ul>
+                    <li>Recurso 1</li>
+                    <li>Recurso 2</li>
+                    <li>Recurso 3</li>
+                </ul>
+                <button class="cta-button">Assinar</button>
+            </div>
+            <div class="pricing-card">
+                <h3>Profissional</h3>
+                <p class="price">R$ 59,90<span>/mês</span></p>
+                <ul>
+                    <li>Recurso 1</li>
+                    <li>Recurso 2</li>
+                    <li>Recurso 3</li>
+                    <li>Recurso 4</li>
+                </ul>
+                <button class="cta-button">Assinar</button>
+            </div>
+            <div class="pricing-card">
+                <h3>Premium</h3>
+                <p class="price">R$ 99,90<span>/mês</span></p>
+                <ul>
+                    <li>Recurso 1</li>
+                    <li>Recurso 2</li>
+                    <li>Recurso 3</li>
+                    <li>Recurso 4</li>
+                    <li>Recurso 5</li>
+                </ul>
+                <button class="cta-button">Assinar</button>
+            </div>
+            <!-- Adicione mais planos aqui -->
+        </div>
+    </section>
+
+    <!-- === FOOTER === -->
+    <footer class="footer">
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
